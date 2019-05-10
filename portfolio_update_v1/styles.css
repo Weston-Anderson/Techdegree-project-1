@@ -54,10 +54,10 @@ a:hover {
 .nav a:hover {
   color: white
 }
-
+/* The background picture was from https://unsplash.com/photos/Xy0XmVBzhbE Photo credit to Donald Giannatti */
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Arizona-pic.jpg') no-repeat top center; 
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(50deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #6b6b6b;
 }
 .card {
   margin: 30px;
@@ -151,8 +151,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.Facebook {
+  background-image: url(images/Facebook-logo.png);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -203,5 +203,10 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+/* This is the link color to Treehouse */
+.linkcolor{
+  color: #0cc600;
 }
 
