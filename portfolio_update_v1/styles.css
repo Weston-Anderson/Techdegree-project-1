@@ -98,8 +98,9 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+/* Changed the card hover collor */
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #06889c;
 }
 
 ul.skills {
@@ -210,3 +211,9 @@ a.social:hover {
   color: #0cc600;
 }
 
+/* This is a border around the cards*/
+
+.card-border {
+  border: 5px solid;
+  color: Gray;
+}
